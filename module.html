@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1: Digital Devices</title>
+    <style>
+        /* Base styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f7f2f2 25%, #fff 25%, #fff 50%, #f7f2f2 50%, #f7f2f2 75%, #fff 75%);
+            background-size: 50px 50px;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff7eb3, #ff758c);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        header .group {
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin-top: 0.5rem;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .content h2 {
+            color: #ff758c;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        li strong {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #ff758c;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Cards for sections */
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1 1 calc(33.333% - 20px);
+            background: #fff0f4;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            color: #ff758c;
+            margin-bottom: 10px;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 100%;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 15px 0;
+            text-align: center;
+            background: #ff758c;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Module 1: Digital Devices</h1>
+        <p>Exploring Technology for the Modern World</p>
+        <p class="group">Group: C.A.R</p>
+    </header>
+    <div class="content">
+        <h2>Overview</h2>
+        <p>This website serves as a comprehensive presentation of **Module 1: Digital Devices**, showcasing topics covered in the module. It is divided into three primary sections, each focusing on specific aspects of the subject. This website is designed to provide students and educators with organized and accessible content for their academic journey.</p>
+
+        <h2>Module Chronicles: Unraveling Ideas and Insights</h2>
+        <div class="section">
+            <div class="card">
+                <h3>Part 1: Introduction About Computer System</h3>
+                <p>Explore the fundamental concepts of computer systems and how hardware integrates with software to perform tasks.</p>
+                <ul>
+                    <li><strong>What is Computer System?</strong><br>
+                        A computer system is an integrated set of hardware and software components designed to collect, process, store, and output data. It includes devices like the CPU, memory, and storage, working with operating systems to perform tasks. 
+                        Learn more: <a href="https://www.techtarget.com/searchdatacenter/definition/computer-system" target="_blank">What is a Computer System? (External Link)</a>
+                    </li>
+                    <li><strong>Personal Computer Hardware</strong><br>
+                        The hardware of a personal computer includes essential components like the motherboard, CPU, RAM, storage devices (HDD or SSD), input devices (keyboard, mouse), and output devices (monitor, speakers). 
+                        Download a detailed PDF: <a href="files/PC_Hardware_Guide.pdf" download>PC Hardware Guide</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Part 2: Navigating the Digital Landscape</h3>
+                <p>Learn how digital devices impact society, creating opportunities and challenges in technology.</p>
+                <ul>
+                    <li><strong>Types of Digital Devices</strong><br>
+                        Digital devices include smartphones, tablets, laptops, desktop computers, smartwatches, and IoT devices. These devices facilitate communication, productivity, and entertainment. 
+                        View interactive content: <a href="Part2/TypesOfDigitalDevices/index.html">Explore Types of Digital Devices</a>
+                    </li>
+                    <li><strong>Impacts on Society</strong><br>
+                        Digital devices have transformed society by improving connectivity, enhancing education, and driving innovation in industries. However, they also raise concerns about privacy, mental health, and digital addiction. 
+                        Read more: <a href="https://www.digitaltrends.com" target="_blank">Digital Trends (External Link)</a>
+                    </li>
+                    <li><strong>Challenges and Concerns</strong><br>
+                        Key challenges include cybersecurity threats, the digital divide, and the environmental impact of e-waste from obsolete devices. 
+                        Watch a video: <a href="https://www.youtube.com/watch?v=examplelink" target="_blank">Challenges of Technology</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Part 3: Future Innovations</h3>
+                <p>Discover upcoming trends like AI, IoT, and quantum computing and explore the ethics of technology.</p>
+                <ul>
+                    <li><strong>Emerging Technologies</strong><br>
+                        Innovations like Artificial Intelligence (AI), the Internet of Things (IoT), and quantum computing are revolutionizing industries by enabling smarter decision-making, automation, and advanced problem-solving. 
+                        Visit: <a href="Part3/EmergingTechnologies/index.html">Emerging Technologies Section</a>
+                    </li>
+                    <li><strong>Ethics in Technology</strong><br>
+                        As technology advances, ethical concerns arise regarding data privacy, algorithmic bias, and the implications of AI on employment and society at large. Responsible tech development is critical. 
+                        Learn more: <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics (External Link)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Conclusion</h2>
+        <p>Through this module, learners gain a deeper understanding of how digital devices shape our lives and society. By exploring the fundamentals of computer systems, the broader digital landscape, and future innovations, students are equipped with knowledge critical to navigating the modern world.</p>
+    </div>
+    <footer>
+        <p>Made by: Rhys Leslie, Alessandra Serrano, and Calvin Kyle Capistrano</p>
+        <p>&copy; 2024 Educational Resource | All rights reserved</p>
+    </footer>
+</body>
+</html>
